@@ -41,6 +41,12 @@
 					</li>
 					<li>
 						<span class="datea">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/folder.gif" alt="" align="absmiddle" />
+                                                </span>
+						<?php the_tags(); ?>
+					</li>
+					<li>
+						<span class="datea">
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/comment.gif" alt="" align="absmiddle" />
 						</span>
 						<a href="#comments"><?php comments_number('No Comments', 'One Comments', '% Comments' );?></a>
